@@ -1,0 +1,159 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box:hover{
+  box-shadow: 0px 0px 5px #999;
+}
+
+#checkbox:hover{
+  box-shadow: 0px 0px 2px #cfcfcf;
+  /* box-sh: 1px solid #0270ff; */
+}
+
+.contanter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
+    /* min-height: 100vh;
+    min-width: 100vw; */
+    /* max-height: 100%; */
+}
+
+.rectangle12,.rectangle13{
+  position: absolute;
+  width: 100px;
+  height: 500px;
+  transform: rotate(-45deg);
+  background-color: #999999;
+}
+
+.rectangle12{
+  right: 10px;
+  top: -110px;
+}
+
+.rectangle13{
+  left: 0px;
+  bottom: -110px;
+}
+
+
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0px;
+  gap: 24px;
+}
+
+.title{
+  width: auto;
+  height: 81px;
+  font-family: 'Racing Sans One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 81px;
+}
+
+.line{
+    width: 50px;
+    height: 0px;
+    border: 1px solid #494949;
+    flex: none;
+}
+
+.Divider{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 10px 0 20px;
+  height: 32px;
+  gap: 32px;
+}
+
+.Divider .line{
+    width: 240px;
+    height: 0px;
+    border: 0.5px solid #494949;
+    flex: none;
+}
+
+.middleicon img{
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.boxlist{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1040px;
+  height: auto;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 736px;
+  height: 44px;
+  margin-bottom: 10px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+.box input[type="checkbox"]{
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin: 0 10px;
+  border: 1px solid #b3b3b3;
+  border-radius: 0px;
+
+}
+
+.box span{
+  text-align: left;
+  text-decoration: none;
+}
+
+.box .rectangle{
+  width: 8px;
+  height: 44px;
+  border-left: 1px solid #999999;
+  margin-left: auto;
+}
+
+.addTodo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 736px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px dashed #999;
+}
+
+.addTodo button{
+  appearance: none;
+  border: 1px solid #999;
+  margin: auto;
+}
