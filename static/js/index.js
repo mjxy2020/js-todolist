@@ -25,7 +25,7 @@ function addTodo(){
       checkbox.setAttribute("id","checkbox"+i)
       span.textContent = "这里请输入内容"
       rectangle.classList.add("rectangle")
-4     
+4 
     }
 
 
