@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/index.css">
-    <script src="static/js/index.js"></script>
-    <title>Document</title>
+    <title>TodoList</title>
 </head>
 <body>
-    <div class="contanter">
+    <div class="container">
         <div class="rectangle12"></div>
         <div class="rectangle13"></div> 
         <div class="header">
@@ -24,20 +23,12 @@
             <div class="line"></div>
         </div>
         <div class="todolist">
-            <div id="boxlist">
-                <div class="box" id="mybox">
-                    <input id="checkbox" type="checkbox" onclick="checkboxOnclick(this)">
-                    <span id="text">这里请输入内容</span>
-                    <div class="rectangle"></div>
-                </div>
-
-            </div>
-                <div class="addTodo" id="hahaha">
+            <div id="boxList"></div>
+                <div class="addTodo" id="todo" onclick="addTodo()">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><path fill="#000000" d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6Z"></path></svg>
                 </div>    
         </div>
     </div>
-        
-
+    <script src="static/js/todo.js"></script>
 </body>
 </html>
